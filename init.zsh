@@ -39,5 +39,5 @@ p6df::modules::chatgpt::vscodes() {
 ######################################################################
 p6df::modules::chatgpt::profile::mod() {
 
-  p6_return_words 'chatgpt' '$OPENAI_API_KEY'
+  p6_return_words 'chatgpt' "$"
 }
