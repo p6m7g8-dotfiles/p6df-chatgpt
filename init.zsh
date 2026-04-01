@@ -25,3 +25,19 @@ p6df::modules::chatgpt::vscodes() {
 
   p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words chatgpt $OPENAI_API_KEY = p6df::modules::chatgpt::profile::mod()
+#
+#  Returns:
+#	words - chatgpt $OPENAI_API_KEY
+#
+#  Environment:	 OPENAI_API_KEY
+#>
+######################################################################
+p6df::modules::chatgpt::profile::mod() {
+
+  p6_return_words 'chatgpt' '$OPENAI_API_KEY'
+}
