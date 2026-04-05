@@ -29,10 +29,10 @@ p6df::modules::chatgpt::vscodes() {
 ######################################################################
 #<
 #
-# Function: words chatgpt $OPENAI_API_KEY = p6df::modules::chatgpt::profile::mod()
+# Function: words chatgpt = p6df::modules::chatgpt::profile::mod()
 #
 #  Returns:
-#	words - chatgpt $OPENAI_API_KEY
+#	words - chatgpt
 #
 #  Environment:	 OPENAI_API_KEY
 #>

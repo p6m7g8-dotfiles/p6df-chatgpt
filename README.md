@@ -37,7 +37,7 @@ TODO: Add a short summary of this module.
 
 - `p6df::modules::chatgpt::deps()`
 - `p6df::modules::chatgpt::vscodes()`
-- `words chatgpt $OPENAI_API_KEY = p6df::modules::chatgpt::profile::mod()`
+- `words chatgpt = p6df::modules::chatgpt::profile::mod()`
 
 ## Hierarchy
 
