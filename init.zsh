@@ -29,6 +29,20 @@ p6df::modules::chatgpt::vscodes() {
 ######################################################################
 #<
 #
+# Function: p6df::modules::chatgpt::external::brews()
+#
+#>
+######################################################################
+p6df::modules::chatgpt::external::brews() {
+
+  p6df::core::homebrew::cli::brew::install --cask chatgpt
+
+  p6_return_void
+}
+
+######################################################################
+#<
+#
 # Function: words chatgpt $OPENAI_API_KEY = p6df::modules::chatgpt::profile::mod()
 #
 #  Returns:
