@@ -36,6 +36,7 @@ TODO: Add a short summary of this module.
 ##### p6df-chatgpt/init.zsh
 
 - `p6df::modules::chatgpt::deps()`
+- `p6df::modules::chatgpt::external::brews()`
 - `p6df::modules::chatgpt::vscodes()`
 - `words chatgpt $OPENAI_API_KEY = p6df::modules::chatgpt::profile::mod()`
 
